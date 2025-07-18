@@ -9,9 +9,23 @@ body {
   background-color: white;
 }
 
+.retangulo {
+  margin-top: -0.5rem;
+  width: 5.6rem;
+  height: 0.4rem;
+  background-color: #000000;
+}
+
 /* TYPOGRAPHY*/
+h1 {
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
 h2 {
-  font-family: Manrope;
   font-weight: 300;
   font-style: Light;
   font-size: 0.875rem;
@@ -46,4 +60,12 @@ h3 {
 
 .fd-column {
   flex-direction: column;
+}
+
+.al-end {
+  align-items: end;
+}
+
+.al-center {
+  align-items: center;
 }
