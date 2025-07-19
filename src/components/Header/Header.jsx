@@ -1,6 +1,6 @@
 // ASSETS
 import './Header.css'
-import Logo from '../../assets/Logo.svg'
+import Logo from '../../assets/logo.svg'
 
 function Header () {
 

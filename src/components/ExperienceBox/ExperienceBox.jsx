@@ -2,7 +2,7 @@
 import './ExperienceBox.css'
 
 //Image
-import Code from '../../assets/Code.svg'
+import Code from '../../assets/code.svg'
 
 function ExperienceBox ({showImage, title, children}) {
 
