@@ -10,7 +10,12 @@ function Projects () {
     return (
         <>
             <Title title='Projetos' position='right'/>
-            <ProjectItem/>
+            <div className=' projects d-grid'>
+                <ProjectItem/>
+                <ProjectItem/>
+                <ProjectItem/>
+                <ProjectItem/>
+            </div>
         </>
     )
 }
