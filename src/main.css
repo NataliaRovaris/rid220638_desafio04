@@ -9,9 +9,23 @@ body {
   background-color: white;
 }
 
+.retangle {
+  margin-top: -0.5rem;
+  width: 5.6rem;
+  height: 0.4rem;
+  background-color: #000000;
+}
+
 /* TYPOGRAPHY*/
+h1 {
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
 h2 {
-  font-family: Manrope;
   font-weight: 300;
   font-style: Light;
   font-size: 0.875rem;
@@ -30,6 +44,34 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 1rem 0;
+}
+
+.text-gray{
+  color: #808080;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin: 0;
+}
+
+.text-tag {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 8px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 0;
+}
+
 .writing-vertical {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
@@ -40,10 +82,26 @@ h3 {
   display: flex;
 }
 
+.d-grid {
+  display: grid;
+}
+
 .jc-space-between {
   justify-content: space-between;
 }
 
+.jc-center {
+  justify-content: center;
+}
+
 .fd-column {
   flex-direction: column;
+}
+
+.al-end {
+  align-items: end;
+}
+
+.al-center {
+  align-items: center;
 }
