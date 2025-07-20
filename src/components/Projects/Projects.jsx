@@ -21,7 +21,8 @@ function Projects () {
                 <ProjectItem
                     image={sales_dashboard}
                     title='Dashboard de Vendas'
-                    link='https://dnc-sales-dashboard-gsd-green.vercel.app/home'>
+                    link='https://dnc-sales-dashboard-gsd-green.vercel.app/home'
+                    tags={['Typescript']}>
                     Sistema web completo com autenticação, desenvolvido em TypeScript. Após o login, 
                     o usuário acessa um dashboard de vendas com diversas informações relevantes em 
                     gráficos e listas. 
@@ -32,7 +33,8 @@ function Projects () {
                 <ProjectItem
                     image={task_list}
                     title='Lista de Tarefas'
-                    link='https://lista-tarefas-typescript.netlify.app/'>
+                    link='https://lista-tarefas-typescript.netlify.app/'
+                    tags={['Typescript', 'CSS']}>
                     Aplicação desenvolvida em TypeScript para gerenciamento de tarefas de forma prática 
                     e visual. Permite adicionar, concluir e remover itens, com contador de progresso no 
                     topo. 
@@ -40,9 +42,20 @@ function Projects () {
                     Utiliza armazenamento local e oferece suporte a tema claro e escuro
                 </ProjectItem>
                 <ProjectItem
+                    image={task_manager}
+                    title='Gerenciador de Tarefas'
+                    link='https://rid220638-desafio03.netlify.app/'
+                    tags={['JavaScript', 'CSS', 'HTML']}>
+                    Aplicação responsiva para gerenciamento de tarefas com etiquetas de marcação. Permite 
+                    adicionar, concluir e acompanhar o progresso com contador de tarefas finalizadas. 
+                    <br /> <br />
+                    Os dados são armazenados localmente, garantindo persistência mesmo após fechar o navegador.
+                </ProjectItem>
+                <ProjectItem
                     image={responsive_blog}
                     title='Blog Responsivo'
-                    link='https://rid220638-desafio02.netlify.app/'>
+                    link='https://rid220638-desafio02.netlify.app/'
+                    tags={['HTML', 'CSS']}>
                     Projeto de blog responsivo que simula uma página de notícias, com layout totalmente 
                     responsivo. 
                     <br /> <br />
@@ -50,18 +63,10 @@ function Projects () {
                     dispositivos, aplicando técnicas como Flexbox e Media Queries.
                 </ProjectItem>
                 <ProjectItem
-                    image={task_manager}
-                    title='Gerenciador de Tarefas'
-                    link='https://rid220638-desafio03.netlify.app/'>
-                    Aplicação responsiva para gerenciamento de tarefas com etiquetas de marcação. Permite 
-                    adicionar, concluir e acompanhar o progresso com contador de tarefas finalizadas. 
-                    <br /> <br />
-                    Os dados são armazenados localmente, garantindo persistência mesmo após fechar o navegador.
-                </ProjectItem>
-                <ProjectItem
                     image={landing_page}
                     title='Landing Page'
-                    link='https://rid220638-desafio01.netlify.app/'>
+                    link='https://rid220638-desafio01.netlify.app/'
+                    tags={['HTML', 'CSS']}>
                     Página de captura responsiva com layout moderno e formulário integrado a um serviço 
                     externo para armazenamento das respostas.
                     <br /> <br />
