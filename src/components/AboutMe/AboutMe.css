@@ -25,6 +25,11 @@
     gap: 1rem
 }
 
+.network a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .experiences {
     padding: 8rem 8rem 0rem 8rem;
     gap: 3rem;

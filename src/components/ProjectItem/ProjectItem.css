@@ -38,4 +38,6 @@ image {
 
 .information {
     flex: 1;
+    gap: 1rem;
+    padding-top: 1rem;
 }
