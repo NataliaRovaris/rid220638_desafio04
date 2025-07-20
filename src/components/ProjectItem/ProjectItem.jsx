@@ -7,7 +7,7 @@ function ProjectItem ({image, title, link, tags, children}) {
         <>
             <div className='itens d-flex jc-space-between'>
                 <a href={link} className='project-link'>
-                <div className='panel d-flex jc-center al-center fd-column'>
+                <div className='panel d-flex jc-center al-center fd-column secondary-color'>
                     <div className='image d-flex jc-center al-center'>
                         <img src={image} alt="projeto 1" />
                     </div>
