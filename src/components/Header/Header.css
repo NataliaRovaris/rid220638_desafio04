@@ -16,3 +16,8 @@ h3 {
     height: 40vh;
     width: 5rem;
 }
+
+.menu-button {
+  text-decoration: none;
+  color: inherit;
+}
