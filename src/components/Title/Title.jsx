@@ -13,7 +13,7 @@ function Title ({title, position, ...props}) {
                 <h1>{title}</h1>
                 {
                     position != 'center' &&
-                    <div className='retangle'></div>
+                    <div className='retangle primery-color'></div>
                 }
             </div>
         

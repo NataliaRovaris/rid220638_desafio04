@@ -6,7 +6,6 @@
 .panel {
     width: 13rem;
     height: 13rem;
-    background-color: #f8f8f8;
     position: relative;
     overflow: hidden;
 }
