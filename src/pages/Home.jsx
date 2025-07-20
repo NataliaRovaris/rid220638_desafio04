@@ -6,10 +6,10 @@ import Contact from "../components/Contact/Contact"
 function Home() {
     return (
         <>
-            <Header/>
-            <Projects/>
-            <AboutMe/>
-            <Contact/>
+            <section id="home"><Header /></section>
+            <section id="projetos"><Projects /></section>
+            <section id="sobre-mim"><AboutMe /></section>
+            <section id="contato"><Contact /></section>
         </>
     )
 }
