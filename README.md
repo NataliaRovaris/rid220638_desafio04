@@ -5,7 +5,3 @@ Portfólio profissional desenvolvido pela aluna RID 220638 como Desafio 4 do cur
 # Para usar
 
 O portfólio possui um menu na lateral esquerda que acompanha a página. Ao longo da página é possível acompanhar meus projetos desenvolvidos, um pouco sobre mim, minhas experiências e atuação.
-
-# Links
-
-- Link do site disponibilizado: https://rid220638-desafio04.netlify.app/
