@@ -1,0 +1,50 @@
+.box {
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid #00000040;
+    padding: 0.7rem 0 0.7rem 1rem;
+    gap: 1rem;
+}
+
+.box img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.box-description {
+    gap: 0.5rem;
+}
+
+.division {
+    background-color: #00000040;
+    width: 0.1rem;
+    height: 100%;
+}
+
+h4 {
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    margin: 0 !important;
+}
+
+.p-small {
+    font-weight: 300;
+    font-style: ExtraLight;
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0;
+}
+
+.p-medium {
+    font-weight: 300;
+    font-style: ExtraLight;
+    font-size: 14px;
+    line-height: 200%;
+    letter-spacing: 0%;
+    margin: 0;
+}
+
+.space-up {
+    padding: 1rem 0;
+}

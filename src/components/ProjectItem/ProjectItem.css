@@ -1,0 +1,47 @@
+.itens {
+    width: 100%;
+    gap: 2rem;
+}
+
+.panel {
+    width: 13rem;
+    height: 13rem;
+    position: relative;
+    overflow: hidden;
+}
+
+image {
+    width: 100%;
+    height: 100%;
+}
+
+.panel img {
+    width: 75%;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #4c4c4c;
+    object-fit:  contain;
+}
+
+.tags {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    gap: 0.5rem;
+}
+
+.panel p {
+    background-color: white;
+    border-radius: 50vh;
+    padding: 0.2rem 0.7rem;
+}
+
+.information {
+    flex: 1;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.project-link {
+    text-decoration: none;
+    color: inherit;
+}

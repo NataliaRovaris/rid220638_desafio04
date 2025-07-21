@@ -1,0 +1,11 @@
+.circle {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.925rem;
+    border: 0.15rem solid black;
+    background: linear-gradient(to right, #000 50%, transparent 50%);
+}
+.mode {
+    gap: 1rem;
+    padding: 0 9rem 1rem 0;
+}

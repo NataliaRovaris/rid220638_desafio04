@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Manrope:wght@200..800&display=swap');
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+  color: #000000;
+  background-color: white;
+}
+
+body.dark-mode {
+  background-color: #000000a2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.retangle {
+  margin-top: -0.5rem;
+  width: 5.6rem;
+  height: 0.4rem;
+  background-color: #000000;
+}
+
+/* COLORS */
+.secondary-color {
+  background-color: #f8f8f8;
+}
+
+.secondary-color.dark-mode {
+  background-color: #00000023;
+}
+
+/* TYPOGRAPHY*/
+h1 {
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+h2 {
+  font-weight: 300;
+  font-style: Light;
+  font-size: 0.875rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+h3 {
+  font-family: DotGothic16;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 2.8rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+h4 {
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 1rem 0;
+}
+
+.text-gray{
+  color: #808080;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin: 0;
+}
+
+.text-gray{
+  color: #0e0d0d;
+}
+.text-tag {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 8px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 0;
+}
+
+.writing-vertical {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+/* GRID */
+
+.d-flex {
+  display: flex;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-end {
+  justify-content: flex-end;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.al-end {
+  align-items: end;
+}
+
+.al-center {
+  align-items: center;
+}
+
+.ps-fixed {
+  position: fixed;
+}

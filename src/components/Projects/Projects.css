@@ -1,0 +1,5 @@
+.projects {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6rem;
+    margin: 4rem 6rem;
+}
