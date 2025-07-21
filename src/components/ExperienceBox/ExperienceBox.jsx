@@ -1,17 +1,14 @@
 // ASSETS
 import './ExperienceBox.css'
 
-//Image
-import Code from '../../assets/code.svg'
-
-function ExperienceBox ({showImage, title, children}) {
+function ExperienceBox ({showImage, image, title, children}) {
 
     return (
         <>
             <div className='box d-flex al-center'>
                 {
                     showImage &&
-                    <img src={Code}/>
+                    <img src={image}/>
                 }
                 <div className='division'></div>
                 <div className={`box-description d-flex fd-column ${!showImage ? 'space-up' : ''}`}>

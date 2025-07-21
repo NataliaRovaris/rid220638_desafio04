@@ -5,6 +5,13 @@ import './AboutMe.css'
 import Title from '../Title/Title'
 import ExperienceBox from '../ExperienceBox/ExperienceBox'
 
+// IMAGES
+import dashboard_image from '../../assets/dashboard.png'
+import html_image from '../../assets/html.png'
+import react_image from '../../assets/react.png'
+import kanban_image from '../../assets/kanban.png'
+
+
 function AboutMe () {
 
 // Links
@@ -38,16 +45,28 @@ function AboutMe () {
             </div>
             <div className='experiences d-flex fd-column'>
                 <div className='experiences-l1 d-flex'>
-                    <ExperienceBox showImage={true} title='Dashboard e Dados'>
+                    <ExperienceBox 
+                        showImage={true}
+                        image={dashboard_image} 
+                        title='Dashboard e Dados'>
                         Melhor experiência do usuário.
                     </ExperienceBox>
-                    <ExperienceBox showImage={true} title='HTML & CSS'>
+                    <ExperienceBox 
+                        showImage={true} 
+                        image={html_image}
+                        title='HTML & CSS'>
                         Responsividade e alta performance.
                     </ExperienceBox>
-                    <ExperienceBox showImage={true} title='React.js'>
+                    <ExperienceBox 
+                        showImage={true} 
+                        image={react_image}
+                        title='React.js'>
                         Sistemas integrados com Node.js.
                     </ExperienceBox>
-                    <ExperienceBox showImage={true} title='Metodologias Ágeis'>
+                    <ExperienceBox 
+                        showImage={true} 
+                        image={kanban_image}
+                        title='Metodologias Ágeis'>
                         Organização e flexibilidade.
                     </ExperienceBox>
                 </div>

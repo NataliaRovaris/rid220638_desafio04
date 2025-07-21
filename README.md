@@ -1,12 +1,11 @@
-# React + Vite
+# Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio profissional desenvolvido pela aluna RID 220638 como Desafio 4 do curso de Engenheiro de Software na Escola DNC. O modelo escolhido para o desenvolvido foi o Template 01.
 
-Currently, two official plugins are available:
+# Para usar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O portfólio possui um menu na lateral esquerda que acompanha a página. Ao longo da página é possível acompanhar meus projetos desenvolvidos, um pouco sobre mim, minhas experiências e atuação.
 
-## Expanding the ESLint configuration
+# Links
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Link do site disponibilizado: https://rid220638-desafio04.netlify.app/
