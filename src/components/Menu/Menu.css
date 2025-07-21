@@ -1,0 +1,15 @@
+.menu {
+    height: 100vh;
+    width: 6rem;
+    overflow: hidden;
+}
+
+.menu-buttons {
+    height: 100%;
+    gap: 2rem;
+}
+
+.menu-button {
+  text-decoration: none;
+  color: inherit;
+}

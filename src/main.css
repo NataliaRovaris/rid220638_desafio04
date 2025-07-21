@@ -128,3 +128,7 @@ h4 {
 .al-center {
   align-items: center;
 }
+
+.ps-fixed {
+  position: fixed;
+}
