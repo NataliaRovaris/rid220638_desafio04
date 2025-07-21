@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 
 // COMPONENTS
+import Menu from '../components/Menu/Menu';
 import Header from "../components/Header/Header"
 import Projects from "../components/Projects/Projects"
 import AboutMe from "../components/AboutMe/AboutMe"
@@ -12,7 +13,6 @@ function Home() {
         const saved = localStorage.getItem('darkMode');
         return saved === 'true';
     });
-
 
     useEffect(() => {
         document.body.classList.toggle('dark-mode', darkMode);
@@ -31,11 +31,18 @@ function Home() {
 
     return (
         <>
-            <section id="home"><Header /></section>
-            <section id="projetos"><Projects /></section>
-            <section id="sobre-mim"><AboutMe /></section>
-            <section id="contato"><Contact /></section>
-            <Footer darkMode={darkMode} setDarkMode={setDarkMode}/>
+            <div className='d-flex'>
+                <div className='ps-fixed'>
+                    <Menu />
+                </div>
+                <div>
+                    <section id="home"><Header /></section>
+                    <section id="projetos"><Projects /></section>
+                    <section id="sobre-mim"><AboutMe /></section>
+                    <section id="contato"><Contact /></section>
+                    <Footer darkMode={darkMode} setDarkMode={setDarkMode}/>
+                </div>
+            </div>
         </>
     )
 }
